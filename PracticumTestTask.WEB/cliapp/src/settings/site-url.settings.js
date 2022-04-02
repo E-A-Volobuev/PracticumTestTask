@@ -1,9 +1,9 @@
 const SiteUrl = {
 
-    getStatistics: () => `https://localhost:44333/Action/Process?url=`,
-    getHistoryRequest:() => `https://localhost:44333/Action/GetAllRequests`,
-    getResults:() => `https://localhost:44333/Action/GetRequestUrl?id=`,
-    delete:() => `https://localhost:44333/Action/DeleteRequest?id=`,
+    getStatistics: () => `https://localhost:44393/Action/Process?url=`,
+    getHistoryRequest:() => `https://localhost:44393/Action/GetAllRequests`,
+    getResults:() => `https://localhost:44393/Action/GetRequestUrl?id=`,
+    delete:() => `https://localhost:44393/Action/DeleteRequest?id=`,
 
 };
 
